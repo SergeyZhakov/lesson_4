@@ -1,0 +1,178 @@
+/* &display=swap*/
+@import url(null.css);
+
+@import url("https://fonts.googleapis.com/css?family=Prompt:400,700,700italic,900,900italic&display=swap");
+
+@font-face {
+	font-family: "Laro";
+	src: url("../fonts/Laro-RegularItalic.woff2") format("woff2"), url("../fonts/Laro-RegularItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Laro";
+	src: url("../fonts/Laro-Medium.woff2") format("woff2"), url("../fonts/Laro-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Laro";
+	src: url("../fonts/Laro-Bold.woff2") format("woff2"), url("../fonts/Laro-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Laro";
+	src: url("../fonts/Laro-Black.woff2") format("woff2"), url("../fonts/Laro-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+.title {
+	font-family: "Laro", serif;
+	font-size: 54px;
+	text-align: center;
+	color: blue;
+	font-style: italic;
+}
+
+.text {
+	text-decoration: underline;
+	color: chartreuse;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+
+ol.list {
+	font-family: "Laro", serif;
+	font-size: 20px;
+	color: darkmagenta;
+	line-height: 40px;
+}
+
+li.list-item-1 {
+	font-size: 15px;
+	text-decoration: line-through;
+}
+li.list-item-2 {
+	text-decoration: overline;
+	text-transform: capitalize;
+	color: gold;
+}
+li.list-item-3 {
+	font-size: 23px;
+}
+li.list-item-4 {
+	font-size: 18px;
+	text-decoration: underline;
+	color: powderblue;
+}
+li.list-item-5 {
+	font-size: 32px;
+	letter-spacing: -3px;
+}
+
+.title-1 {
+	text-shadow: 15px 15px 3px #000;
+	font-size: 25px;
+	color: fuchsia;
+	text-transform: lowercase;
+	text-align: right;
+}
+
+.text-info {
+	font-family: "Laro", serif;
+	font-weight: 900;
+	font-style: italic;
+	color: teal;
+}
+
+.title-2 {
+	color: yellowgreen;
+	text-shadow: 5px 5px 5px rgba(255, 0, 34, 0.596);
+	word-spacing: 20px;
+}
+
+.text-info2 {
+	font-family: "Laro", serif;
+	font-size: 23px;
+	line-height: 2;
+	font-weight: 600;
+	color: indianred;
+	text-shadow: 3px 3px 3px #000;
+	text-indent: 105px;
+}
+
+.title-3 {
+	text-align: center;
+	color: darkblue;
+	font-size: 50px;
+	text-decoration: line-through;
+	font-style: italic;
+	word-spacing: -11px;
+}
+.text-info3 {
+	font-family: "Lora", serif;
+	font-size: 12px;
+	color: lightseagreen;
+	font-weight: 900;
+	line-height: 2;
+	text-shadow: -7px -7px 1px rgba(231, 216, 5, 0.425);
+	text-align: right;
+}
+.title-4 {
+	font-size: 44px;
+	text-decoration: underline;
+	color: rgba(212, 0, 255, 0.233);
+	letter-spacing: 40px;
+}
+.block__2 {
+	font-family: "Lora", serif;
+	line-height: 2.5;
+	color: cornflowerblue;
+	font-style: italic;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+p span {
+	font-size: 30px;
+	text-decoration: line-through;
+	color: fuchsia;
+}
+.block_text {
+	text-shadow: 7px 15px 2px rgb(121, 165, 0);
+}
+.title-5 {
+	font-size: 33px;
+	text-align: center;
+	text-transform: lowercase;
+	text-decoration: overline;
+	color: darkred;
+}
+.block__3 {
+	letter-spacing: 3px;
+	line-height: 1.5;
+	font-size: 17px;
+	word-spacing: 1px;
+}
+.block_text2 {
+	color: peachpuff;
+	text-transform: uppercase;
+	text-shadow: 3px 2px 3px #000;
+}
+.footer {
+	font-size: 25px;
+	text-align: center;
+}
+p.footer-page {
+	color: yellowgreen;
+	text-indent: 100px;
+	text-transform: lowercase;
+}
